@@ -58,3 +58,18 @@ const yourName = "Zarina";
 //   console.log(a <= b !== c);
 //   console.log(a === a !== d);
 //   console.log(48 >='48');
+
+// D. The farm
+
+// Declare a variable animal. Set it to be either "cow" or something else.
+// Write code that will print out "mooooo" if the it is equal to cow.
+// Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+// Commit.
+
+const animal = 'dog';
+if(animal === 'cow') {
+    console.log("moooo");
+} else {
+    console.log("Hey! You're not a cow.");
+}
+
