@@ -131,8 +131,22 @@ for (let i=1; i<=100; i++) {
 
 for (let i=1; i<=100; i++) {
     if(i % 5 === 0) {
-        console.log("I found a " + i + "." + " High five!" );
+        // console.log("I found a " + i + "." + " High five!" );
     } else if(i % 3 === 0) {
-        console.log("I found a " + i + "." + " Three is a crowd")
+        // console.log("I found a " + i + "." + " Three is a crowd")
     }
 }
+
+// D. Savings account
+
+// Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+
+
+let bank_account = 0;
+let sum = 0;
+for (let i=1; i<=10; i++) {
+    sum += i;
+  
+}
+bank_account = sum
+console.log("$"+ bank_account);
