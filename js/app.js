@@ -98,6 +98,21 @@ for (let i=10; i<=400; i++) {
 }
 // Write a loop that will print out every third number starting with 12 and going no higher than 4000.
 for (let i=0; i<4000; i++) {
-    console.log(i);
+    // console.log(i);
 }
 
+// B. Get even
+// Print out the even numbers that are within the range of 1 - 100.
+for (let i=0; i<=100; i++) {
+    if(i % 2 === 0) {
+        // console.log(i);
+    }
+}
+
+// Adjust your code to add a message next to even numbers only that says: "<-- is an even number".
+
+for (let i=1; i<=100; i++) {
+    if(i % 2 === 0) {
+        // console.log(i + " is the EVEN number");
+    }
+}
