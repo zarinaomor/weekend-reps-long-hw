@@ -193,3 +193,10 @@ for (let i=1; i<1000; i++) {
 
 // What real-life thing could you model with an array?
 // Arranging books, Bullet points (to do lists) etc
+
+// B. Easy Does It
+
+// Create an array that contains three quotes and store it in a variable called quotes.
+
+// const quotes = ["Talk is cheap", "“Programs must be written for people to read, and only incidentally for machines to execute.",  ]
+
