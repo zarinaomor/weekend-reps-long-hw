@@ -182,3 +182,14 @@ for (let i=1; i<1000; i++) {
 }
 
 // console.log(sum);
+
+// III. Arrays & Control flow
+
+// What are the things in an array called?
+// Each variable or object in an array is called an element.
+
+// Do Arrays guarantee those things will be in order?
+// Yes. Arrays are ordered collections
+
+// What real-life thing could you model with an array?
+// Arranging books, Bullet points (to do lists) etc
