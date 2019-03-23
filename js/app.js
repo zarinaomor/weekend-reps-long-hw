@@ -142,11 +142,43 @@ for (let i=1; i<=100; i++) {
 // Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
 
 
-let bank_account = 0;
-let sum = 0;
-for (let i=1; i<=10; i++) {
-    sum += i;
+// let sum = 0;
+// for (let i=1; i<=10; i++) {
+//     sum += i;
   
+// }
+// let bank_account = sum;
+// console.log("$"+ bank_account);
+
+
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+// let sum = 0;
+// for (let i=1; i<=100; i++) {
+//     sum += i * 2;
+  
+// }
+// let bank_account = sum;
+// console.log("$"+ bank_account);
+
+
+// E. Multiples of 3 and 5
+// If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+// let sum = 0;
+
+let sumOfNumbers = 0;
+for (let i=1; i<10; i++) {
+    if(i % 3 === 0 || i % 5 ===0) {
+       sumOfNumbers += i;
+    }
 }
-bank_account = sum
-console.log("$"+ bank_account);
+// console.log(sumOfNumbers);
+
+// Find the sum of all the multiples of 3 or 5 below 1000. If a previous question you've done has helpful bits of code in it that partially solves this problem, look back at them.
+let sum = 0;
+for (let i=1; i<1000; i++) {
+    if(i % 3 === 0 || i % 5 === 0) {
+        sum += i;
+     }
+}
+
+// console.log(sum);
