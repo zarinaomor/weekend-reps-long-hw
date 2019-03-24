@@ -552,5 +552,21 @@ user.age++;
 
 user.location = 'LA';
 
-// console.log(user);
+
+// Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased array.
+
+user.purchased.push("carbohydrates");
+
+
+// Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased array.
+
+user.purchased.push("peace of mind");
+
+// Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchased array.
+
+user.purchased.push("Merino jodhpurs");
+
+// Console.log just the "Merino jodhpurs" from the purchased array.
+
+// console.log(user.purchased[2]);
 
