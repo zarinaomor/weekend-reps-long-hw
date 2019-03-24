@@ -198,7 +198,7 @@ for (let i=1; i<1000; i++) {
 
 // Create an array that contains three quotes and store it in a variable called quotes.
 
-// const quotes = ["Talk is cheap", "“Programs must be written for people to read, and only incidentally for machines to execute.",  ]
+// const quotes = ["Talk is cheap", "“Programs must be written for people to read, and only incidentally for machines to execute.", "Think opposite"];
 
 // C. Accessing elements
 
@@ -467,3 +467,60 @@ const transmogrify = (num1, num2, num3) => {
 
 // console.log(transmogrify(5, 3, 2));
 
+// GOBACK!!!!!!!!!!!!!
+
+const reverseWordOrder = (string) => {
+    let reversedString = '';
+    for (let i=string.length-1; i>0; i--) {
+        reversedString += string[i];
+        for (let j=0; j<reversedString.length; i++) {
+
+        }
+
+    }
+    // return reversedString;
+}
+
+// console.log(reverseWordOrder('Ishmael me Call'));
+
+// Write a function that will return a random integer between 1 and 10. Test it.
+
+const randomNumber = () => {
+    // return Math.floor(Math.random() * 11);
+}
+// console.log(randomNumber())
+
+// Write a function that will return a random integer between 10 and 100. Test it.
+
+// const randomNum = () => {
+//     // return Math.floor(Math.random() * 100) + 10;
+// }
+
+// // console.log(randomNum())
+
+// Write a function that will return a random number between 532 and 13267. Test it.
+
+// const randNum = () => {
+//     return Math.floor(Math.random() * 13267) + 532;
+// }
+
+// console.log(randNum())
+
+// Write a function that will return a random number between 1 and 10. Test it.
+
+// const randomNum = () => {
+//     return Math.floor(Math.random() * 10) + 1;
+// }
+
+// console.log(randomNum())
+
+// Add a few more quotes to the quotes array from question III-B-1 above.
+//  Write a function that will take an array as a parameter, and return a random element from that array. Call your function a few times, passing in the quotes array. Give it a nice semantic name like getRandomElement.
+
+const quotes = ["Talk is cheap", "Think opposite", "Every noble work is at first impossible", "No rain, no flower"];
+
+const getRandomElement = (quotes) => {
+    return quotes[Math.floor(Math.random() * quotes.length)];
+}
+
+console.log(getRandomElement(quotes));
