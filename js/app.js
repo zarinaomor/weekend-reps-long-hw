@@ -373,7 +373,14 @@ const printGreeting = (name) => {
 // printGreeting('Zarina');
 
 const printCool = (name) => {
-    console.log(name + ' is cool');
+    // console.log(name + ' is cool');
 }
 
-printCool('Captain Reynolds');
+// printCool('Captain Reynolds');
+
+// Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
+
+const calculateCube = (num) => {
+    // return num * num * num;
+}
+// console.log(calculateCube(5));
