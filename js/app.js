@@ -520,7 +520,23 @@ const randomNumber = () => {
 const quotes = ["Talk is cheap", "Think opposite", "Every noble work is at first impossible", "No rain, no flower"];
 
 const getRandomElement = (quotes) => {
-    return quotes[Math.floor(Math.random() * quotes.length)];
+    // return quotes[Math.floor(Math.random() * quotes.length)];
 }
 
-console.log(getRandomElement(quotes));
+// console.log(getRandomElement(quotes));
+
+
+
+// Objects
+
+// Make a user object
+// Create an object called user.
+// Write in to the object the key-value pairs for name, email, age, and purchased. Set the value of purchased to an empty array []. Set the other values to whatever you would like.
+
+const user = {
+    name: 'Oren',
+    age: 18,
+    email: "orenoreo@gmail.com",
+    purchased: []
+}
+
