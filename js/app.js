@@ -423,3 +423,37 @@ const getMultipleLengths = (argument) => {
 
 // console.log(getMultipleLengths(['hello', 'what', 'is', 'up', 'dude']));
 
+// Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
+
+const maxOfThree = (num1, num2, num3) => {
+    // return Math.max(num1, num2, num3);
+}
+
+// console.log(maxOfThree(8, 8, 1));
+
+// Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+
+
+const printLongestWord = (array) => {
+    let longestWord = '';
+    for (let i=0; i<array.length; i++) {
+        if(array[i].length > longestWord.length) {
+            longestWord = array[i];
+        }
+    }
+    // return longestWord;
+}
+
+// console.log(
+    // printLongestWord([
+//       'BoJack',
+//       'Princess',
+//       'Diane',
+//       'a',
+//       'Max',
+//       'Peanutbutter',
+//       'big',
+//       'Todd'
+//     ])
+//   );
+
