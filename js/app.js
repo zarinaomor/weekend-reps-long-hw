@@ -372,3 +372,8 @@ const printGreeting = (name) => {
 
 // printGreeting('Zarina');
 
+const printCool = (name) => {
+    console.log(name + ' is cool');
+}
+
+printCool('Captain Reynolds');
