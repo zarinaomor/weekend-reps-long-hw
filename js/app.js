@@ -457,3 +457,13 @@ const printLongestWord = (array) => {
 //     ])
 //   );
 
+// Write a Javascript function called transmogrify. This function should accept three arguments, which you can assume will be numbers. Your function should return the "transmogrified" result.
+
+// The transmogrified result of three numbers is the product of the first two numbers, raised to the power of the third number.
+
+const transmogrify = (num1, num2, num3) => {
+    // return Math.pow((num1 * num2), 2);
+}
+
+// console.log(transmogrify(5, 3, 2));
+
