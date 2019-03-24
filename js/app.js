@@ -382,24 +382,44 @@ const printCool = (name) => {
 
 const calculateCube = (num) => {
     // return num * num * num;
+    // return Math.pow( num , 3 );
+
 }
 // console.log(calculateCube(5));
 
 // Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
 
-// GO BACK!!!
 
-let vowel = ['a', 'e', 'i', 'o', 'u', 'y']; 
+ 
 const isVowel = (x) => {
-    for (let i=0; i<=vowel.length; i++) {
-        if(x == vowel[i]) {
+    let vowels = ['a', 'e', 'i', 'o', 'u', 'y'];
+    for (let i=0; i<=vowels.length; i++) {
+        if(vowels[i] == x.toLowerCase()) {
             // return true;
-        }else {
-            // return false;
-        }
-    
+        }   
+     }
+    // return false;
     }
-    
+// console.log(isVowel('B'));
+
+//  Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+
+const getTwoLengths = (str1, str2) => {
+   
+    // return [str1.length, str2.length]
 }
-// console.log(isVowel('a'));
+
+// console.log(getTwoLengths('Hank', 'Hippopopalous'));
+
+// Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+
+const getMultipleLengths = (argument) => {
+    const length = [];
+    for (let i=0; i<argument.length; i++){
+        length.push(argument[i].length);
+    }
+    // return length;
+}
+
+// console.log(getMultipleLengths(['hello', 'what', 'is', 'up', 'dude']));
 
