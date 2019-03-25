@@ -600,4 +600,38 @@ user.friend.purchased.push("The One Ring");
 
 // The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
 user.friend.purchased.push("A latte");
-console.log(user.friend.purchased[1]);
+// console.log(user.friend.purchased[1]);
+
+// Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
+
+// GO BACK!!!!!!!!!!
+
+for (let i=0; i<user.length; i++) {
+}
+// console.log(user.purchased);
+
+// Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
+
+for (let i=0; i<user.length-1; i++) {
+}
+// console.log(user.friend.purchased);
+
+// Write a single function updateUser that takes no parameters. When the function is run, it should:
+
+const updateUser = () => {
+        user.age++;
+        user.name = user.name.toUpperCase();
+    
+}
+// updateUser();
+// console.log(user);
+
+// Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument
+
+const oldAndLoud = (person) => {
+    console.log(user);   
+}
+
+oldAndLoud(user);
+
+
