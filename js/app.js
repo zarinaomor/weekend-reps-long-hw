@@ -570,3 +570,34 @@ user.purchased.push("Merino jodhpurs");
 
 // console.log(user.purchased[2]);
 
+// Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
+
+user.friend = {
+    name: 'David',
+    age: 30,
+    location: 'NY',
+    purchased: []
+}
+
+// Console.log just the friend's name
+
+// console.log(user.friend.name);
+
+// Console.log just the friend's location
+
+// console.log(user.friend.location);
+
+// CHANGE the friend's age to 55
+
+user.friend.age = 55;
+
+// console.log(user.friend.age);
+
+// The friend has purchased "The One Ring". Use .push() to add "The One Ring" to the friend's purchased array.
+
+user.friend.purchased.push("The One Ring");
+// console.log(user.friend);
+
+// The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
+user.friend.purchased.push("A latte");
+console.log(user.friend.purchased[1]);
